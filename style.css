@@ -128,7 +128,7 @@ input:checked ~ .popup {
   z-index: 999999;
   top: 0;
   left: -360px;
-  background: #9143d1;
+  background: #421b63;
   transition: all 0.5s;   
   width: 320px;
   height: 100vh;
