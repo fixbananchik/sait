@@ -229,3 +229,7 @@ a{
   transform: rotate(45deg) scale(1.1);    
   color: #FFF;
 }
+
+#s3{
+  height: 100 px;
+}
