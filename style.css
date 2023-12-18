@@ -233,3 +233,12 @@ a{
 #s3{
   height: 100 px;
 }
+
+#sp2{
+  justify-content: center;
+}
+
+#sp3{
+  font-size: 20px;
+  color: #FFF;
+}
