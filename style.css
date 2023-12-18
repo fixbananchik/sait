@@ -207,7 +207,7 @@ input:checked ~ .popup {
 #side-checkbox:checked + .side-panel {
   left: 0;
 }
-a{
+.a1{
     text-decoration: none;
     color: #292929;
     font-size: 25px;
@@ -234,8 +234,3 @@ a{
   height: 100 px;
 }
 
-#sp3{
-  font-size: 75px;
-  color: #FFF;
-  align-items: center;
-}
