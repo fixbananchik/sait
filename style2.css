@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container{
+    position: relative;
+    max-width: 370px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 25px;
+    background-color: blue;
+}
+
+.container header{
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+}
+
+.container form{
+    margin-top: 30;
+}
+
+form .field{
+    margin-bottom: 20px;
+}
+
+form .input-field{
+    position: relative;
+    height: 55px;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+.input-field input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 0 15px;
+    border: 1px solid #d1d1d1;
+}
+.invalid .input{
+    border-color: red;
+}
+.field .error{
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+    color: red;
+    font-size: 15px;
+    display: none;
+}
+
+.error .error-icon{
+    margin-right: 6px;
+    font-size: 17px;
+}
+.invalid .error{
+    display: flex;
+}
+.create-password .error{
+    align-items: flex-start;
+}
+.create-password .error-icon{
+    margin-top: 4px;
+}
+
+.button{
+    margin: 25px 0 6px;
+
+}
+
+.button input{
+    background-color: blueviolet;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.button input:hover{
+    background-color: darkmagenta;
+}
