@@ -132,7 +132,7 @@ input:checked ~ .popup {
   transition: all 0.5s;   
   width: 320px;
   height: 100vh;
-  box-shadow: 10px 0 20px rgba(0,0,0,0.4);
+  box-shadow: 10px 0 20px rgba(0,0,0,0);
   color: #FFF;
   padding: 40px 20px;
 }
@@ -140,7 +140,7 @@ input:checked ~ .popup {
   font-size: 20px;
   padding-bottom: 10px;
   margin-bottom: 20px;
-  border-bottom: 2px solid #BFE2FF;
+  border-bottom: 2px solid #ffffff;
 }
 .side-button-1-wr {
   justify-content: left;
@@ -161,7 +161,7 @@ input:checked ~ .popup {
   font-family: 'Roboto', Тahoma, sans-serif;
   background: #337AB7;
   cursor: pointer; 
-  border: 2px solid #BFE2FF;
+  border: 2px solid #ffffff;
 }
 .side-button-1 .side-b:hover,
 .side-button-1 .side-b:active,
@@ -209,7 +209,7 @@ input:checked ~ .popup {
 }
 .a1{
     text-decoration: none;
-    color: #292929;
+    color: #000000;
     font-size: 25px;
 }
 
@@ -222,7 +222,7 @@ input:checked ~ .popup {
   right: 8px;
   cursor: pointer;
   transform: rotate(45deg);
-  color: #BFE2FF;    
+  color: #ffffff;    
   transition: all 280ms ease-in-out;    
 }
 .side-button-2:hover {
